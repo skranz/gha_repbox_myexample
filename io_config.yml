@@ -1,12 +1,12 @@
 output:
-  encryption: false
+  encryption: true
 
 sup:
   # if download: false your supplement should be a ZIP
   # file in the sup directory of this Github Repo
   download: false
   
-  encryption: false
+  encryption: true
   download_script: download_sup.R
   download_args:
     url:
@@ -18,7 +18,7 @@ art:
   # file in the sup directory of this Github Repo
   download: false
   
-  encryption: false
+  encryption: true
 
   download_script: download_art.R
   download_args:
