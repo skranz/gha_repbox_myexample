@@ -114,10 +114,10 @@ run = function() {
   } else {
     cat("\nStore results\n")
     my.dir.copy("/root/projects/project/reports", "/root/output")
-    cat("\nFiles in reports:")
-    print(list.files("/root/projects/project/reports",recursive = TRUE))
-    cat("\nFiles in output:")
-    print(list.files("/root/output/",recursive = TRUE))
+    #cat("\nFiles in reports:")
+    #print(list.files("/root/projects/project/reports",recursive = TRUE))
+    #cat("\nFiles in output:")
+    #print(list.files("/root/output/",recursive = TRUE))
   }
   key = Sys.getenv("REPBOX_ENCRYPT_KEY")
   #to.7z("/root/projects/project/reports","/root/output/reports.7z",password = key)
